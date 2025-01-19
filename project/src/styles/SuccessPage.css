@@ -1,0 +1,133 @@
+.success-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at center, #ffffff 0%, #f5f5f5 100%);
+  padding: 2rem;
+}
+
+.content {
+  max-width: 600px;
+  width: 100%;
+  background: white;
+  padding: 3rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.success-header {
+  margin-bottom: 2rem;
+}
+
+.success-header h1 {
+  font-size: 2.5rem;
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: #666;
+}
+
+.next-steps {
+  margin: 2rem 0;
+  text-align: left;
+}
+
+.next-steps h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.next-steps ol {
+  padding-left: 1.5rem;
+}
+
+.next-steps li {
+  margin: 0.75rem 0;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.booking-section {
+  margin: 2rem 0;
+}
+
+.urgency {
+  color: #ff4444;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin: 1rem 0;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.deadline {
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.contact-info {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #eee;
+}
+
+.contact-info a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.contact-info a:hover {
+  color: #333;
+}
+
+.social-follow {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.social-follow a {
+  color: #000;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.social-follow a:hover {
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .content {
+    padding: 2rem;
+  }
+
+  .success-header h1 {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+  }
+}
