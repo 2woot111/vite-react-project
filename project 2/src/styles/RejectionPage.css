@@ -1,0 +1,92 @@
+.rejection-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
+}
+
+.rejection-card {
+  background: white;
+  border-radius: 16px;
+  padding: 3rem;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.rejection-header {
+  margin-bottom: 2rem;
+}
+
+.emoji {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.rejection-header h1 {
+  font-size: 2rem;
+  color: #1a1a1a;
+  font-weight: 600;
+  margin: 0;
+}
+
+.rejection-message {
+  color: #4a5568;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.rejection-message p {
+  margin: 1rem 0;
+}
+
+.rejection-message a {
+  color: #000;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.rejection-message a:hover {
+  color: #333;
+}
+
+.rejection-actions {
+  margin-top: 2.5rem;
+}
+
+.return-home-btn {
+  background: #000;
+  color: white;
+  border: none;
+  padding: 0.875rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.return-home-btn:hover {
+  background: #1a1a1a;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 640px) {
+  .rejection-card {
+    padding: 2rem;
+  }
+  
+  .emoji {
+    font-size: 2.5rem;
+  }
+  
+  .rejection-header h1 {
+    font-size: 1.75rem;
+  }
+}
